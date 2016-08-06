@@ -3,3 +3,15 @@
     float: left;
     margin: 0px;
 }
+
+.fast { display: block; }
+.slow { display: none; }
+
+a:hover .fast
+{
+    display: none;
+}
+a:hover .slow
+{
+    display: block;
+}
