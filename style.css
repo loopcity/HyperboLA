@@ -4,14 +4,12 @@
     margin: 0px;
 }
 
-.fast { display: block; }
-.slow { display: none; }
-
-a:hover .fast
-{
+a img:last-child {
     display: none;
 }
-a:hover .slow
-{
+a:hover img:last-child {
     display: block;
+}
+a:hover img:first-child {
+    display: none;
 }
